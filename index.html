@@ -1,28 +1,152 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
 		<title>Aurélien Barbotin</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Aurélien Barbotin and I am testing github blogs!</h1>
-				<p>Blabla <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/aurelien-barbotin">github.com/aurelien-barbotin</a></li>
-			</ul>
-		</footer>
-	</body>
+	<body class="is-preload">
+
+		<!-- Header -->
+		<section id="header">
+			<header>
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+					<h2>Aurélien Barbotin </h2>
+					<h4>I'm a Marie Sklodowska fellow investigating lipid dynamics in bacteria in the <a href="https://www.micalis.fr/micalis_eng/Poles-and-teams/Pole-Systems-and-Synthetic-Microbiology/Prokaryotic-Cell-Development-Rut-Carballido-Lopez/" target="_blank">ProCeD</a> team, at <a href="https://www.inrae.fr/en/centres/ile-france-jouy-josas-antony" target="_blank">INRAE (Jouy-en-Josas, France)</a>. </h4>
+					
+				</div>
+			</header>
+			
+            <nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">About</a></li>
+						<li><a href="#two">Projects</a></li>
+						<li><a href="https://scholar.google.com/citations?user=PKzqTe8AAAAJ&hl=en" target="_blank">Publications </a></li>
+						<!--<li>
+						
+						<li><a href="cv.html">CV</a></li>
+						<a href="#three">Gallery</a></li>
+						
+						<li><a href="#four">Contact</a></li>-->
+					</ul>
+		    </nav>
+		</section>
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2> Scientific interests</h2>
+						</header>
+						<p>My main goal is to shed light on lipid dynamics in the plasma membrane of B. subtilis. Lipid dynamics has so far mostly been studied in eukaryotic membranes, where fast spectroscopy techniques like fluorescence correlation spectroscopy (FCS) have revealed that lipid diffusion in membranes is highly heterogeneous. It particularly revealed that certain lipid species transiently assemble and disassemble, a process thought to play a significant role for instance in cellular signalling. In comparison, fewer studies have been performed in prokaryotes and the dynamics of lipids in bacterial membranes remains widely unknown. My project therefore consists in using fluorescence microscopy in general and FCS in particular to measure the diffusion behaviour of the lipids contained in bacterial membranes.</p>
+						
+						<img src="images/bacteria1.jpg" alt="Bacillus Subtilis is at it again" width="100%">
+						<!--
+						<ul class="actions">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>
+						-->
+					</section>
+
+				<!-- Two -->
+					<section id="two">
+						<h2>Previous Work</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/zSTED.png" class="image fit thumb"><img src="images/fulls/zSTED.png" alt="z-STED and confocal images of a Ptk2 cell" /></a>
+								<h3>z-STED imaging and spectroscopy of biological membranes</h3>
+								<p>We used the excellent performance of our z-STED microscope to study the structure and dynamics of the plasma membrane of living cells.</p>
+							</article>
+							
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/AOFCS.png" class="image fit thumb"><img src="images/fulls/AOFCS.png" alt="Improvement of STED-FCS measurements with AO in a solution of freely-diffusing dyes" /></a>
+								<h3>Adaptive optics for STED-enhanced Fluorescence Correlation Spectroscopy</h3>
+								<p>Aberrations are particularly detrimental to STED-FCS in 3D. We developed a correction method to fix this issue to enable new set of measurements, for instance to measure nanoscale diffusion in the cytoplasm. </p>
+							</article>
+							
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/AOSTED.png" class="image fit thumb"><img src="images/thumbs/AOSTED_thumb.png" alt="Adaptive optics to improve image quality in fluorescent images of keratin in mouse liver" /></a>
+								<h3>Adaptive optics for STED imaging</h3>
+								<p>We developed methods to correct the optical aberrations that degrade the image quality when focusing a STED beam through thick samples. </p>
+							</article>
+							
+						</div>
+						<!--
+						<ul class="actions">
+							<li><a href="#" class="button">Full Portfolio</a></li>
+						</ul>
+						-->
+					</section>
+
+				<!-- Three -->
+					<!--<section id="three">
+						<h2>Get In Touch</h2>
+						<p> Please reach out if you have questions, requests, anything! </p>
+						<div class="row">
+							<div class="col-8 col-12-small">
+								<form method="post" action="#">
+									<div class="row gtr-uniform gtr-50">
+										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+									</div>
+								</form>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</div>
+							<div class="col-4 col-12-small">
+								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+										Institut Micalis<br />
+										Domaine de Vilvert <br />
+										78352 Jouy-en-Josas<br />
+										France
+									</li>
+									
+									<li>
+										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+										<a href="#"></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</section>-->
+
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://twitter.com/aurel_barbotin" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/aurelien-barbotin" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<!-- <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li> -->
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>41
+	
 </html>
